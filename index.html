@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Landing page</title>
+</head>
+<body>
+    <div id="page-wapper">
+    <!---HEADER-->
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="images/logo-santa.svg" alt="El Conde Santa logo">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li class="nav-link"><a href="#new-merch">New merch features</a></li>
+                <li class="nav-link"><a href="#freebies">Freebies</a></li>
+                <li class="nav-link"><a href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--DATA SECTION-->
+    <section id="data">
+        <h2>Slip inside this funky store!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Write here your email address" required>
+            <input type="submit" class="btn" value="Done!" id="submit">
+        </form>
+    </section>
+
+    <div class="container">
+        <!--NEW MERCH FEATURES-->
+        <section id="new-merch">
+
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa fa-3x fa-skull"></i>
+                </div>
+                <div class="description">
+                    <h2>Premium materials</h2>
+                    <p>
+                        Our merch has been crafted with quality checked  materials,
+                        giving long lasting and guaranteed.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa fa-3x fa-truck"></i>
+                </div>
+                <div class="description">
+                    <h2>Fast shipping</h2>
+                    <p>
+                        We make that you recive your order as soon as we finished making it.
+                        We also provide free returns if you are not satisfied. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa fa-3x fa-bolt"></i>
+                </div>
+                <div class="description">
+                    <h2>Quality Assurance</h2>
+                    <p>
+                        For every purchase you make, we will ensure there are no damages
+                        or faults and we will check and test the pitch of your
+                        merch.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!---FREEBIES-->
+        <section id="freebies">                      
+            <iframe id="video" src="https://www.youtube.com/embed/watch?v=PQKutt-F_xM" height="315" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <!--PRICING-->
+        <section id="pricing">
+            <div class="product" id="size-s">
+                <div class="size">Hoodie Size 'S'</div>
+                <img src="images/hoodie.jpg" alt="hoodie image">
+                <h2>$50</h2>
+                <ol>
+                    <li>Comfortable.</li>
+                    <li>Attached hood. </li>
+                    <li>Kangaroo pocket in the front.</li>
+                    <li>Elastic cuffs and hem.</li>
+                </ol>
+                <button class="btn">Add to cart</button>
+            </div>
+            <div class="product" id="size-m">
+                <div class="size">Hoodie Size 'M'</div>
+                <img src="images/hoodie.jpg" alt="hoodie image">
+                <h2>$100</h2>
+                <ol>
+                    <li>Sweat fabric.</li>
+                    <li>Attached hood.</li>
+                    <li>Kangaroo pocket in the front.</li>
+                    <li>Elastic cuffs and hem.</li>
+                </ol>
+                <button class="btn">Add to cart</button>
+            </div>
+            <div class="product" id="size-l">
+                <div class="size">Hoodie Size 'L'</div>
+                <img src="images/hoodie.jpg" alt="hoodie image">
+                <h2>$110</h2>
+                <ol>
+                    <li>For Sports 80% cotton.</li>
+                    <li>20% Polyester.</li>
+                    <li>Two sides pockets.</li>
+                    <li>Machine washable.</li>
+                </ol>
+                <button class="btn">Add to cart</button>
+            </div>
+        </section>
+        
+        <!--FOOTER-->
+        <footer>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span>Copyright 2022, El Conde Santa</span>
+        </footer>
+    </div>
+    </div>    
+</body>
+</html>
